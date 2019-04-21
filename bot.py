@@ -2,7 +2,7 @@ import random
 import copy
 
 Vitorias = []
-for i in xrange(0,28):
+for i in xrange(0,29):
     Vitorias.append(0)
 Fronteiras = [[2,3,5,6,8,10,14,15,16,17,18,19,20,21,24,25,26,28]]
 Fronteiras.append([4,22])
@@ -93,8 +93,8 @@ Estados.insert(27, "Tocantins")
 Controlado.insert(27, 7)
 Estados.insert(28, "Cisplatina")
 Controlado.insert(28, 21)
-#for i in xrange(0,28):
-#	Controlado[i] = i
+for i in xrange(0,29):
+	Controlado[i] = i
 backup = Controlado[:]
 for i in xrange(0,10000):
 	terminou = 0
@@ -127,6 +127,6 @@ for i in xrange(0,10000):
 	Controlado = backup[:]
 
 print "Vitorias"
-for i in xrange(0,28):
+for i in xrange(0,29):
 	if (Vitorias[i] != 0):
 		print Estados[i], Vitorias[i]
