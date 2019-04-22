@@ -22,7 +22,7 @@ python2.7 bot.py | sort -k2 -r -n -t':'
   _jogos de guerra_, mas não é, nem pretende ser, uma [simulação militar](https://en.wikipedia.org/wiki/Military_simulation) <sup>(destino em inglês)</sup>.
 
 - Escolhe aleatóriamente um dos estados atacantes
-- Escolhe aleatóriamente se a fronteira será via terra ou via água
+- Escolhe aleatóriamente qual o estado a ser atacado ou se será via água
     - Se via água, o estado atacante atacará um outro estado banhado pelo oceano
       atlântico.
 
