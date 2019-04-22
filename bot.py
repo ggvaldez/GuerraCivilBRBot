@@ -2,7 +2,7 @@ import random
 import copy
 
 Vitorias = []
-for i in xrange(0,29):
+for i in range(0,29):
     Vitorias.append(0)
 Fronteiras = [[2,3,5,6,8,10,14,15,16,17,18,19,20,21,24,25,26,28]]
 Fronteiras.append([4,22])
@@ -48,17 +48,17 @@ Controlado.insert(4, 22)
 Estados.insert(5, "Bahia")
 Controlado.insert(5, 7)
 Estados.insert(6, "Ceara")
-Controlado.insert(6, 20)
+Controlado.insert(6, 16)
 Estados.insert(7, "Distrito Federal")
 Controlado.insert(7, 21)
 Estados.insert(8, "Espirito Santo")
-Controlado.insert(8, 19)
+Controlado.insert(8, 16)
 Estados.insert(9, "Goias")
-Controlado.insert(9, 7)
+Controlado.insert(9, 21)
 Estados.insert(10, "Maranhao")
 Controlado.insert(10, 16)
 Estados.insert(11, "Mato Grosso")
-Controlado.insert(11, 21)
+Controlado.insert(11, 22)
 Estados.insert(12, "Mato Grosso do Sul")
 Controlado.insert(12, 7)
 Estados.insert(13, "Minas Gerais")
@@ -76,7 +76,7 @@ Controlado.insert(18, 7)
 Estados.insert(19, "Rio de Janeiro")
 Controlado.insert(19, 21)
 Estados.insert(20, "Rio Grande do Norte ")
-Controlado.insert(20, 20)
+Controlado.insert(20, 19)
 Estados.insert(21, "Rio Grande do Sul")
 Controlado.insert(21, 21)
 Estados.insert(22, "Rondonia")
@@ -84,19 +84,19 @@ Controlado.insert(22, 22)
 Estados.insert(23, "Roraima")
 Controlado.insert(23, 22)
 Estados.insert(24, "Santa Catarina")
-Controlado.insert(24, 21)
+Controlado.insert(24, 7)
 Estados.insert(25, "Sao Paulo")
 Controlado.insert(25, 21)
 Estados.insert(26, "Sergipe")
 Controlado.insert(26, 16)
 Estados.insert(27, "Tocantins")
-Controlado.insert(27, 7)
+Controlado.insert(27, 22)
 Estados.insert(28, "Cisplatina")
 Controlado.insert(28, 21)
-for i in xrange(0,29):
-	Controlado[i] = i
+#for i in range(0,29):
+#	Controlado[i] = i
 backup = Controlado[:]
-for i in xrange(0,10000):
+for i in range(0,10000):
 	terminou = 0
 	vencedor = 0
 	while (terminou != 1):
@@ -126,7 +126,7 @@ for i in xrange(0,10000):
 	Vitorias[vencedor] += 1
 	Controlado = backup[:]
 
-print "Vitorias"
-for i in xrange(0,29):
+print ("Vitorias")
+for i in range(0,29):
 	if (Vitorias[i] != 0):
-		print Estados[i], ":", Vitorias[i]
+		print (Estados[i], ":", Vitorias[i])
