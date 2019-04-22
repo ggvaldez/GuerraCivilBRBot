@@ -1,5 +1,14 @@
 # Guerra Civil Brasileira Bot
-Algorítimo feito por fans da página [Guerra Civil Brasileira Bot](https://www.facebook.com/GCBrasileiraBot)
+
+[![Guerra Civil Brasileira Bot](img/banner.jpg)](https://ggvaldez.github.io/GuerraCivilBRBot/)
+
+[![Share on Facebook](https://img.shields.io/badge/Share-Facebook-blue.svg)](https://www.facebook.com/sharer/sharer.php?u=#https://ggvaldez.github.io/GuerraCivilBRBot/)
+[![Share on WhatsApp](https://img.shields.io/badge/Share-WhatsApp-brightgreen.svg)](https://wa.me/?text=https%3A%2F%2Fggvaldez.github.io%2FGuerraCivilBRBot%2F)
+[![Share on Twitter](https://img.shields.io/twitter/url/https/ggvaldez.github.io/GuerraCivilBRBot.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fggvaldez.github.io%2FGuerraCivilBRBot%2F)
+![GitHub stars](https://img.shields.io/github/stars/ggvaldez/GuerraCivilBRBot.svg?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ggvaldez/GuerraCivilBRBot.svg?style=social)
+
+**Algorítimo feito por fans da página [Guerra Civil Brasileira Bot](https://www.facebook.com/GCBrasileiraBot).**
 
 ## Como executar
 
