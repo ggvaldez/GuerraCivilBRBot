@@ -129,4 +129,4 @@ for i in xrange(0,10000):
 print "Vitorias"
 for i in xrange(0,29):
 	if (Vitorias[i] != 0):
-		print Estados[i], Vitorias[i]
+		print Estados[i], ":", Vitorias[i]
